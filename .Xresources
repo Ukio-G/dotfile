@@ -1,0 +1,16 @@
+URxvt.scrollBar: false
+Xfr.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting:1
+Xft.antialias:1
+Xft.rgba: rgb
+
+URxvt*font: xft:Iosevka:medium:pixelsize=16:minspace=False, xft:Hack:regular:pixelsize=16
+URxvt*boldFont: xft:Iosevka:bold:pixelsize=16:minspace=False, xft:Hack:bold:pixelsize=16
+URxvt*letterSpace: 0
+
+URxvt.internalBorder: 24
+
+#include "/home/ukio/.xres/gruvbox"

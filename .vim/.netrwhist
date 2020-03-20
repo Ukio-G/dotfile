@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/ukio/study/stepic_cpp_second_course/Multimethod2'
+let g:netrw_dirhist_5='/home/ukio/study/stepic_cpp_second_course'
+let g:netrw_dirhist_4='/home/ukio/study'
+let g:netrw_dirhist_3='/home/ukio/.config/i3blocks'
+let g:netrw_dirhist_2='/home/ukio/.xres'
+let g:netrw_dirhist_1='/home/ukio/testcv'
