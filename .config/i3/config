@@ -148,6 +148,8 @@ set $ws7    "7:   Design "
 set $ws8    "8:   Chat "
 set $ws9    "9:   General "
 set $ws10   "10:   Settings "
+set $ws11   "11: Virtual Machine "
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -159,6 +161,7 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
+bindsym $mod+b workspace number $ws11
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -171,6 +174,7 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+Shift+b move container to workspace number $ws11
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
