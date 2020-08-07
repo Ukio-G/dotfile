@@ -2,14 +2,21 @@
 
 My configuration files for the most common cases.
 
+
+## Usage:
+
+Clone and launch install script
+` git clone https://github.com/Ukio-G/dotfile.git ~/dotfile && cd ~/dotfile && ./install `
+
 ## Details:
 
-* Zsh
+* zsh
 * i3-wm
+* i3blocks
+* gitconfig **(!!!)** i think you want to change it
 * rofi
 * rxvt-unicode
-* guake
-* .Xresourses
+* .xbindkeys file
+* .xinitrc file
+* .Xresourses file (for urxvt terminal emulator)
 * vim
-
-
