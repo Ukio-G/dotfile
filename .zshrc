@@ -8,7 +8,7 @@ export ZSH="/home/ukio/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=false
@@ -112,3 +112,6 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
+export LANG="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
