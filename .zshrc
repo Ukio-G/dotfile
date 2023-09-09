@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/ukio/.oh-my-zsh"
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="zkio"
 
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=false
@@ -71,7 +71,7 @@ SPACESHIP_PROMPT_SEPARATE_LINE=false
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting command-not-found)
+plugins=(git branch colored-man-pages docker fancy-ctrl-z fd jump fzf zsh-autosuggestions zsh-syntax-highlighting command-not-found autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,7 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 export INSTALL4J_JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-# source /home/ukio/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #export FZF_DEFAULT_COMMAND="find . -type f -print -o -type l -print 2> /dev/null | sed s/^..//"
@@ -111,7 +110,8 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/home/$USER/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
 export LANG="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
+clear

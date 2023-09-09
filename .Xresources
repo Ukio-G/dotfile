@@ -12,5 +12,4 @@ URxvt*boldFont: xft:Iosevka:bold:pixelsize=16:minspace=False, xft:Hack:bold:pixe
 URxvt*letterSpace: 0
 
 URxvt.internalBorder: 24
-
-#include "/home/ukio/.xres/gruvbox"
+#include ".xrdb_themes/gruvbox"
