@@ -6,7 +6,7 @@ My configuration files for the most common cases.
 ## Usage:
 
 Clone and launch install script
-` git clone https://github.com/Ukio-G/dotfile.git ~/dotfile && cd ~/dotfile && ./install `
+` git clone https://github.com/Ukio-G/dotfile.git ~/dotfile && cd ~/dotfile && ./install.sh `
 
 ## Details:
 
